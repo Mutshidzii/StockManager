@@ -1,0 +1,58 @@
+<div class="page-content">
+    <div class="row">
+      <div class="col-12">
+          <div class="card">
+              <div class="card-body">
+                  <div class="row mb-2">
+                      <div class="col-sm-12">
+                          <div class="text-sm-right">
+                              <button routerLink="/createItem" class="btn btn-success btn-rounded waves-effect waves-light mb-2 mr-2"><i class="mdi mdi-plus mr-1"></i> Add New Item</button>
+                          </div>
+                      </div><!-- end col-->
+                  </div>
+    
+                  <div class="table-responsive">
+                      <table class="table table-centered table-nowrap">
+                          <thead class="thead-light" style="border-style: hidden;">
+                              <tr style="font-size: 13px;font-family:Poppins,sans-serif">
+                                  <th>Name</th>
+                                  <th>Part Number</th>
+                                  <th>Label</th>
+                                  <th>Starting Inventory</th>
+                                  <th>Inventory Recieved</th>
+                                  <th>Inventory On Hand</th>
+                                  <th>Action</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr style="font-size: 13px;font-family:Poppins,sans-serif" *ngFor="let stock of stocks">
+                                  <td>{{stock.productName}}</td>
+                                  <td>
+                                   {{stock.partNumber}}
+                                  </td>
+                                  <td>
+                                      {{stock.partNumber}}
+                                  </td>
+                                  <td>
+                                      {{stock.startingInventory}}
+                                  </td>
+                                  <td>
+                                      {{stock.inventoryRecieved}}
+                                  </td>
+                                  <td>
+                                    {{stock.inventoryOnHand}}
+                                  </td>
+                                  <td>
+                                      <a [routerLink]="['/editItem/',stock.id]" class="mr-3 text-primary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"><i class="mdi mdi-pencil font-size-18"></i></a>
+                                      <a routerLink="" (click)="deleteStock(stock.id)" class="text-danger" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"><i class="mdi mdi-close font-size-18"></i></a>
+                                  </td>
+                              </tr>    
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+

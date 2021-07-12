@@ -1,0 +1,14 @@
+to run the website 
+
+1.install nodejs LTS version from here https://nodejs.org/en/download/
+2.install angular-cli with this command npm install -g @angular/cli
+3.inside the command line run cd StockInventoryUI\src
+4.then run ng serve
+
+to run the web api
+
+1. install .net core 3.1 sdk from https://dotnet.microsoft.com/download/dotnet/3.1
+2. install visual studio 2019 from https://visualstudio.microsoft.com/vs
+3. to run the web api go to StockInvetoryServer folder and open the StockInventoryServer.sln
+4. open package manager console run command Update-Database
+5. then press the run button

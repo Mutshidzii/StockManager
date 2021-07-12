@@ -1,0 +1,9 @@
+C:\Software development Projects\PinionPaperless-InterviewProject\InventoryLibrary\bin\Debug\netstandard2.1\InventoryLibrary.deps.json
+C:\Software development Projects\PinionPaperless-InterviewProject\InventoryLibrary\bin\Debug\netstandard2.1\InventoryLibrary.dll
+C:\Software development Projects\PinionPaperless-InterviewProject\InventoryLibrary\bin\Debug\netstandard2.1\InventoryLibrary.pdb
+C:\Software development Projects\PinionPaperless-InterviewProject\InventoryLibrary\obj\Debug\netstandard2.1\InventoryLibrary.csprojAssemblyReference.cache
+C:\Software development Projects\PinionPaperless-InterviewProject\InventoryLibrary\obj\Debug\netstandard2.1\InventoryLibrary.AssemblyInfoInputs.cache
+C:\Software development Projects\PinionPaperless-InterviewProject\InventoryLibrary\obj\Debug\netstandard2.1\InventoryLibrary.AssemblyInfo.cs
+C:\Software development Projects\PinionPaperless-InterviewProject\InventoryLibrary\obj\Debug\netstandard2.1\InventoryLibrary.csproj.CoreCompileInputs.cache
+C:\Software development Projects\PinionPaperless-InterviewProject\InventoryLibrary\obj\Debug\netstandard2.1\InventoryLibrary.dll
+C:\Software development Projects\PinionPaperless-InterviewProject\InventoryLibrary\obj\Debug\netstandard2.1\InventoryLibrary.pdb
